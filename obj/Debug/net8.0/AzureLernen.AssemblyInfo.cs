@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AzureLernen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+794cf4dd3f96585d20ddf822e1e6cc70d29ab85c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+023654797fef2c15af32f985a2fd6ae698592e17")]
 [assembly: System.Reflection.AssemblyProductAttribute("AzureLernen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AzureLernen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

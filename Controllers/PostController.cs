@@ -28,11 +28,12 @@ public class PostController: ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult<PostDTO>> Post([FromBody] PostDTO data)
+    public async Task<ActionResult<PostDTO>> Post([FromForm] PostDTO data)
     {
-        await this.postService.Create(data);
+        //await this.postService.Create(data);
         return NoContent();
     }
+
 
     [HttpPut("{id}")]
     public async Task<ActionResult> Put([FromRoute] int id, [FromBody] PostDTO data)
